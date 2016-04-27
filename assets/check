@@ -8,6 +8,12 @@ exec 1>&2 # redirect all output to stderr for logging
 
 source $(dirname $0)/common.sh
 
+echo "######"
+cat /tmp/git-resource-request
+echo "######"
+
+
+
 # for jq
 PATH=/usr/local/bin:$PATH
 
